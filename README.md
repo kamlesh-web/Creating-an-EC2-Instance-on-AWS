@@ -15,7 +15,7 @@ Detailed Step-by-Step Guide: Launching and Stopping Your First AWS EC2 Instance
 <img width="987" height="679" alt="image" src="https://github.com/user-attachments/assets/64a1d530-284d-4ac0-bfcc-d59d0a12a701" />
 
 
-**What the screenshot shows**: The top navigation bar with the search box highlighted in orange. The “Recently visited” panel is still blank on a fresh account.
+**What the screenshot shows**: The top navigation bar with the search box. The “Recently visited” panel is still blank on a fresh account.
 
 ### Step 3: Search for and Select EC2
 - Type **EC2** in the search field.
@@ -32,7 +32,7 @@ Detailed Step-by-Step Guide: Launching and Stopping Your First AWS EC2 Instance
 <img width="987" height="679" alt="image" src="https://github.com/user-attachments/assets/eb30804d-f481-4090-beae-4cbd4232859f" />
 
 
-**What the screenshot shows**: The EC2 console homepage with the “Launch instance” button circled in orange.
+**What the screenshot shows**: The EC2 console homepage with the “Launch instance” button.
 
 ### Step 5: Name Your Instance
 - In the “Name and tags” section, enter a friendly name.
@@ -41,7 +41,7 @@ Detailed Step-by-Step Guide: Launching and Stopping Your First AWS EC2 Instance
 <img width="987" height="679" alt="image" src="https://github.com/user-attachments/assets/aaec2b55-171f-4e13-80fd-ee04398295d5" />
 
 
-**What the screenshot shows**: The launch wizard with the name field highlighted. A helpful blue “Take a walkthrough” banner may appear at the top.
+**What the screenshot shows**: The launch wizard with the name field.
 
 ### Step 6: Choose an Amazon Machine Image (AMI)
 - Under “Application and OS Images”, select **Amazon Linux** (the recommended free-tier Linux option).
@@ -58,7 +58,7 @@ Detailed Step-by-Step Guide: Launching and Stopping Your First AWS EC2 Instance
 <img width="987" height="679" alt="image" src="https://github.com/user-attachments/assets/47bd735f-10a6-4a40-b42f-ef501d80dd8e" />
 
 
-**What the screenshot shows**: The instance type table with “Free tier eligible” clearly marked in green and circled in orange.
+**What the screenshot shows**: The instance type table with “Free tier eligible” clearly marked in green.
 
 ### Step 8: Set Up a Key Pair (for Secure Login)
 - In the **Key pair (login)** section, you can either:
@@ -77,7 +77,7 @@ Detailed Step-by-Step Guide: Launching and Stopping Your First AWS EC2 Instance
 <img width="987" height="679" alt="image" src="https://github.com/user-attachments/assets/4cf7c7a8-82db-491c-b1c5-04958eccc288" />
 
 
-**What the screenshot shows**: The dropdown expanded with “Amazon Server” selected and highlighted.
+**What the screenshot shows**: The dropdown expanded with “Amazon Server” selected.
 
 ### Step 10: Configure Network Settings (Security Group)
 - Leave the default **“Create security group”** option selected.
@@ -86,7 +86,7 @@ Detailed Step-by-Step Guide: Launching and Stopping Your First AWS EC2 Instance
 <img width="987" height="679" alt="image" src="https://github.com/user-attachments/assets/a5656983-c2af-4d4e-9f41-6d9d207a0641" />
 
 
-**What the screenshot shows**: The “Network settings” panel with “Create security group” radio button selected and the SSH rule visible.
+**What the screenshot shows**: The “Network settings” panel with “Create security group” radio button and the SSH rule visible.
 
 ### Step 11: Configure Storage
 - The default storage is **8 GiB** (gp3 volume).
@@ -104,7 +104,7 @@ Detailed Step-by-Step Guide: Launching and Stopping Your First AWS EC2 Instance
 <img width="987" height="679" alt="image" src="https://github.com/user-attachments/assets/2149c21c-b2e4-4dc9-856c-e6ed8edbe8fd" />
 
 
-**What the screenshot shows**: The final launch confirmation screen with the “Launch instance” button highlighted.
+**What the screenshot shows**: The final launch confirmation screen with the “Launch instance” button.
 
 ### Step 13: View Your Running Instance
 - After launch, AWS shows a success message.
@@ -113,7 +113,7 @@ Detailed Step-by-Step Guide: Launching and Stopping Your First AWS EC2 Instance
 <img width="987" height="679" alt="image" src="https://github.com/user-attachments/assets/86cfe929-c2bf-4008-997b-c616a674ad62" />
 
 
-**What the screenshot shows**: The Instances list with the new instance highlighted. The status shows “Running” and “Initializing”.
+**What the screenshot shows**: The Instances list status shows “Running” and “Initializing”.
 
 ### Step 14: Return to the Instances List
 - Click **Instances** in the left navigation (or breadcrumb) to return to the full list of your EC2 instances.
@@ -121,7 +121,7 @@ Detailed Step-by-Step Guide: Launching and Stopping Your First AWS EC2 Instance
 <img width="987" height="679" alt="image" src="https://github.com/user-attachments/assets/31be297e-fbe1-4ad6-8a2d-f6623db3cc04" />
 
 
-**What the screenshot shows**: The top navigation with “Instances” tab highlighted, showing the full instance summary.
+**What the screenshot shows**: The top navigation with “Instances”, showing the full instance summary.
 
 ### Step 15: Open the Actions Menu
 - Select your instance in the list.
@@ -139,7 +139,7 @@ Detailed Step-by-Step Guide: Launching and Stopping Your First AWS EC2 Instance
 <img width="987" height="679" alt="image" src="https://github.com/user-attachments/assets/c032f22d-565a-48cb-8cc1-48c2e485319f" />
 
 
-**What the screenshot shows**: The Instance state dropdown with “Stop instance” highlighted.
+**What the screenshot shows**: The Instance state dropdown.
 
 ### Step 17: Confirm the Stop Action
 - A confirmation dialog appears.
@@ -149,6 +149,6 @@ Detailed Step-by-Step Guide: Launching and Stopping Your First AWS EC2 Instance
 <img width="987" height="679" alt="image" src="https://github.com/user-attachments/assets/a9270959-62d6-4e08-aa63-008da29911ca" />
 
 
-**What the screenshot shows**: The stop confirmation modal with the warning about billing for associated resources (Elastic IP, EBS volume) and the “Stop” button highlighted.
+**What the screenshot shows**: The stop confirmation modal with the warning about billing for associated resources (Elastic IP, EBS volume) and the “Stop” button.
 
 You have now successfully launched, viewed, and safely stopped your very first EC2 instance exactly as shown in the PDF screenshots! If you follow these steps in order, your console will look identical to the images in the document.
